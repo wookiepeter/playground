@@ -1,0 +1,13 @@
+Milestones:
+
+1. TestEnvironment - Working Version of the game with map, the player, different types of enemies and items
+	including Collision, Physix, HP for the player, Killable enemies, etc.
+
+
+
+2. Basic Map/Level Editor
+	- simple version to create and edit the blockworld(not the graphical overlay!)
+
+
+
+3. Finished Game
