@@ -1,0 +1,11 @@
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\obj\Debug\Fakes\s2\b\sfmlnet-audio-2.2.1.0.0.Fakes.xml
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\obj\Debug\Fakes\s2\b\sfmlnet-audio-2.2.1.0.0.Fakes.dll
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\obj\Debug\Fakes\s2\b\sfmlnet-audio-2.2.1.0.0.Fakes.pdb
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\obj\Debug\Fakes\s2\b\Microsoft.QualityTools.Testing.Fakes.dll
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\obj\Debug\Fakes\s2\b\sfmlnet-audio-2.dll
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\obj\Debug\Fakes\s2\b\sfmlnet-graphics-2.dll
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\obj\Debug\Fakes\s2\b\sfmlnet-window-2.dll
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\obj\Debug\Fakes\s2\b\de\Microsoft.QualityTools.Testing.Fakes.resources.dll
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\obj\Debug\Fakes\s2\o\f.csprojResolveAssemblyReference.cache
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\obj\Debug\Fakes\s2\o\sfmlnet-audio-2.2.1.0.0.Fakes.dll
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\obj\Debug\Fakes\s2\o\sfmlnet-audio-2.2.1.0.0.Fakes.pdb

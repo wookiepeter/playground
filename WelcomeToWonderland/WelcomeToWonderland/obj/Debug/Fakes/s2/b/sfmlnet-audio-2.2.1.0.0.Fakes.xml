@@ -1,0 +1,1103 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>sfmlnet-audio-2.2.1.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:SFML.Audio.Fakes.ShimListener">
+            <summary>Shim type of SFML.Audio.Listener</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimListener.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimListener.#ctor(SFML.Audio.Listener)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.ShimListener.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimListener.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimListener.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimListener.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimListener.Constructor">
+            <summary>Sets the shim of Listener.Listener()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimListener.DirectionGet">
+            <summary>Sets the shim of Listener.get_Direction()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimListener.DirectionSetVector3f">
+            <summary>Sets the shim of Listener.set_Direction(Vector3f value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimListener.GlobalVolumeGet">
+            <summary>Sets the shim of Listener.get_GlobalVolume()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimListener.GlobalVolumeSetSingle">
+            <summary>Sets the shim of Listener.set_GlobalVolume(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimListener.PositionGet">
+            <summary>Sets the shim of Listener.get_Position()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimListener.PositionSetVector3f">
+            <summary>Sets the shim of Listener.set_Position(Vector3f value)</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.ShimMusic">
+            <summary>Shim type of SFML.Audio.Music</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimMusic.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimMusic.#ctor(SFML.Audio.Music)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.ShimMusic.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.AttenuationGet">
+            <summary>Sets the shim of Music.get_Attenuation()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.AttenuationSetSingle">
+            <summary>Sets the shim of Music.set_Attenuation(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.ChannelCountGet">
+            <summary>Sets the shim of Music.get_ChannelCount()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.DestroyBoolean">
+            <summary>Sets the shim of Music.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.DurationGet">
+            <summary>Sets the shim of Music.get_Duration()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.LoopGet">
+            <summary>Sets the shim of Music.get_Loop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.LoopSetBoolean">
+            <summary>Sets the shim of Music.set_Loop(Boolean value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.MinDistanceGet">
+            <summary>Sets the shim of Music.get_MinDistance()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.MinDistanceSetSingle">
+            <summary>Sets the shim of Music.set_MinDistance(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.Pause">
+            <summary>Sets the shim of Music.Pause()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.PitchGet">
+            <summary>Sets the shim of Music.get_Pitch()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.PitchSetSingle">
+            <summary>Sets the shim of Music.set_Pitch(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.Play">
+            <summary>Sets the shim of Music.Play()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.PlayingOffsetGet">
+            <summary>Sets the shim of Music.get_PlayingOffset()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.PlayingOffsetSetTimeSpan">
+            <summary>Sets the shim of Music.set_PlayingOffset(TimeSpan value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.PositionGet">
+            <summary>Sets the shim of Music.get_Position()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.PositionSetVector3f">
+            <summary>Sets the shim of Music.set_Position(Vector3f value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.RelativeToListenerGet">
+            <summary>Sets the shim of Music.get_RelativeToListener()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.RelativeToListenerSetBoolean">
+            <summary>Sets the shim of Music.set_RelativeToListener(Boolean value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.SampleRateGet">
+            <summary>Sets the shim of Music.get_SampleRate()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.StatusGet">
+            <summary>Sets the shim of Music.get_Status()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.Stop">
+            <summary>Sets the shim of Music.Stop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.ToString01">
+            <summary>Sets the shim of Music.ToString()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.VolumeGet">
+            <summary>Sets the shim of Music.get_Volume()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AllInstances.VolumeSetSingle">
+            <summary>Sets the shim of Music.set_Volume(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AttenuationGet">
+            <summary>Sets the shim of Music.get_Attenuation()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.AttenuationSetSingle">
+            <summary>Sets the shim of Music.set_Attenuation(Single value)</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimMusic.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimMusic.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimMusic.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.ChannelCountGet">
+            <summary>Sets the shim of Music.get_ChannelCount()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.ConstructorStream">
+            <summary>Sets the shim of Music.Music(Stream stream)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.ConstructorString">
+            <summary>Sets the shim of Music.Music(String filename)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.DestroyBoolean">
+            <summary>Sets the shim of Music.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.DurationGet">
+            <summary>Sets the shim of Music.get_Duration()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.LoopGet">
+            <summary>Sets the shim of Music.get_Loop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.LoopSetBoolean">
+            <summary>Sets the shim of Music.set_Loop(Boolean value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.MinDistanceGet">
+            <summary>Sets the shim of Music.get_MinDistance()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.MinDistanceSetSingle">
+            <summary>Sets the shim of Music.set_MinDistance(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.Pause">
+            <summary>Sets the shim of Music.Pause()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.PitchGet">
+            <summary>Sets the shim of Music.get_Pitch()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.PitchSetSingle">
+            <summary>Sets the shim of Music.set_Pitch(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.Play">
+            <summary>Sets the shim of Music.Play()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.PlayingOffsetGet">
+            <summary>Sets the shim of Music.get_PlayingOffset()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.PlayingOffsetSetTimeSpan">
+            <summary>Sets the shim of Music.set_PlayingOffset(TimeSpan value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.PositionGet">
+            <summary>Sets the shim of Music.get_Position()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.PositionSetVector3f">
+            <summary>Sets the shim of Music.set_Position(Vector3f value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.RelativeToListenerGet">
+            <summary>Sets the shim of Music.get_RelativeToListener()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.RelativeToListenerSetBoolean">
+            <summary>Sets the shim of Music.set_RelativeToListener(Boolean value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.SampleRateGet">
+            <summary>Sets the shim of Music.get_SampleRate()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.StatusGet">
+            <summary>Sets the shim of Music.get_Status()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.Stop">
+            <summary>Sets the shim of Music.Stop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.ToString">
+            <summary>Sets the shim of Music.ToString()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.VolumeGet">
+            <summary>Sets the shim of Music.get_Volume()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimMusic.VolumeSetSingle">
+            <summary>Sets the shim of Music.set_Volume(Single value)</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.ShimSound">
+            <summary>Shim type of SFML.Audio.Sound</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSound.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSound.#ctor(SFML.Audio.Sound)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.ShimSound.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.AttenuationGet">
+            <summary>Sets the shim of Sound.get_Attenuation()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.AttenuationSetSingle">
+            <summary>Sets the shim of Sound.set_Attenuation(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.DestroyBoolean">
+            <summary>Sets the shim of Sound.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.LoopGet">
+            <summary>Sets the shim of Sound.get_Loop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.LoopSetBoolean">
+            <summary>Sets the shim of Sound.set_Loop(Boolean value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.MinDistanceGet">
+            <summary>Sets the shim of Sound.get_MinDistance()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.MinDistanceSetSingle">
+            <summary>Sets the shim of Sound.set_MinDistance(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.Pause">
+            <summary>Sets the shim of Sound.Pause()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.PitchGet">
+            <summary>Sets the shim of Sound.get_Pitch()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.PitchSetSingle">
+            <summary>Sets the shim of Sound.set_Pitch(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.Play">
+            <summary>Sets the shim of Sound.Play()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.PlayingOffsetGet">
+            <summary>Sets the shim of Sound.get_PlayingOffset()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.PlayingOffsetSetTimeSpan">
+            <summary>Sets the shim of Sound.set_PlayingOffset(TimeSpan value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.PositionGet">
+            <summary>Sets the shim of Sound.get_Position()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.PositionSetVector3f">
+            <summary>Sets the shim of Sound.set_Position(Vector3f value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.RelativeToListenerGet">
+            <summary>Sets the shim of Sound.get_RelativeToListener()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.RelativeToListenerSetBoolean">
+            <summary>Sets the shim of Sound.set_RelativeToListener(Boolean value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.SoundBufferGet">
+            <summary>Sets the shim of Sound.get_SoundBuffer()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.SoundBufferSetSoundBuffer">
+            <summary>Sets the shim of Sound.set_SoundBuffer(SoundBuffer value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.StatusGet">
+            <summary>Sets the shim of Sound.get_Status()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.Stop">
+            <summary>Sets the shim of Sound.Stop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.ToString01">
+            <summary>Sets the shim of Sound.ToString()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.VolumeGet">
+            <summary>Sets the shim of Sound.get_Volume()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AllInstances.VolumeSetSingle">
+            <summary>Sets the shim of Sound.set_Volume(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AttenuationGet">
+            <summary>Sets the shim of Sound.get_Attenuation()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.AttenuationSetSingle">
+            <summary>Sets the shim of Sound.set_Attenuation(Single value)</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSound.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSound.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSound.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.Constructor">
+            <summary>Sets the shim of Sound.Sound()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.ConstructorSound">
+            <summary>Sets the shim of Sound.Sound(Sound copy)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.ConstructorSoundBuffer">
+            <summary>Sets the shim of Sound.Sound(SoundBuffer buffer)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.DestroyBoolean">
+            <summary>Sets the shim of Sound.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.LoopGet">
+            <summary>Sets the shim of Sound.get_Loop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.LoopSetBoolean">
+            <summary>Sets the shim of Sound.set_Loop(Boolean value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.MinDistanceGet">
+            <summary>Sets the shim of Sound.get_MinDistance()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.MinDistanceSetSingle">
+            <summary>Sets the shim of Sound.set_MinDistance(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.Pause">
+            <summary>Sets the shim of Sound.Pause()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.PitchGet">
+            <summary>Sets the shim of Sound.get_Pitch()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.PitchSetSingle">
+            <summary>Sets the shim of Sound.set_Pitch(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.Play">
+            <summary>Sets the shim of Sound.Play()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.PlayingOffsetGet">
+            <summary>Sets the shim of Sound.get_PlayingOffset()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.PlayingOffsetSetTimeSpan">
+            <summary>Sets the shim of Sound.set_PlayingOffset(TimeSpan value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.PositionGet">
+            <summary>Sets the shim of Sound.get_Position()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.PositionSetVector3f">
+            <summary>Sets the shim of Sound.set_Position(Vector3f value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.RelativeToListenerGet">
+            <summary>Sets the shim of Sound.get_RelativeToListener()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.RelativeToListenerSetBoolean">
+            <summary>Sets the shim of Sound.set_RelativeToListener(Boolean value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.SoundBufferGet">
+            <summary>Sets the shim of Sound.get_SoundBuffer()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.SoundBufferSetSoundBuffer">
+            <summary>Sets the shim of Sound.set_SoundBuffer(SoundBuffer value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.StatusGet">
+            <summary>Sets the shim of Sound.get_Status()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.Stop">
+            <summary>Sets the shim of Sound.Stop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.ToString">
+            <summary>Sets the shim of Sound.ToString()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.VolumeGet">
+            <summary>Sets the shim of Sound.get_Volume()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSound.VolumeSetSingle">
+            <summary>Sets the shim of Sound.set_Volume(Single value)</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.ShimSoundBuffer">
+            <summary>Shim type of SFML.Audio.SoundBuffer</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundBuffer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundBuffer.#ctor(SFML.Audio.SoundBuffer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.ShimSoundBuffer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.AllInstances.ChannelCountGet">
+            <summary>Sets the shim of SoundBuffer.get_ChannelCount()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.AllInstances.DestroyBoolean">
+            <summary>Sets the shim of SoundBuffer.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.AllInstances.DurationGet">
+            <summary>Sets the shim of SoundBuffer.get_Duration()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.AllInstances.SampleRateGet">
+            <summary>Sets the shim of SoundBuffer.get_SampleRate()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.AllInstances.SamplesGet">
+            <summary>Sets the shim of SoundBuffer.get_Samples()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.AllInstances.SaveToFileString">
+            <summary>Sets the shim of SoundBuffer.SaveToFile(String filename)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.AllInstances.ToString01">
+            <summary>Sets the shim of SoundBuffer.ToString()</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundBuffer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundBuffer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundBuffer.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.ChannelCountGet">
+            <summary>Sets the shim of SoundBuffer.get_ChannelCount()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.ConstructorInt16ArrayUInt32UInt32">
+            <summary>Sets the shim of SoundBuffer.SoundBuffer(Int16[] samples, UInt32 channelCount, UInt32 sampleRate)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.ConstructorSoundBuffer">
+            <summary>Sets the shim of SoundBuffer.SoundBuffer(SoundBuffer copy)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.ConstructorStream">
+            <summary>Sets the shim of SoundBuffer.SoundBuffer(Stream stream)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.ConstructorString">
+            <summary>Sets the shim of SoundBuffer.SoundBuffer(String filename)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.DestroyBoolean">
+            <summary>Sets the shim of SoundBuffer.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.DurationGet">
+            <summary>Sets the shim of SoundBuffer.get_Duration()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.SampleRateGet">
+            <summary>Sets the shim of SoundBuffer.get_SampleRate()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.SamplesGet">
+            <summary>Sets the shim of SoundBuffer.get_Samples()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.SaveToFileString">
+            <summary>Sets the shim of SoundBuffer.SaveToFile(String filename)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBuffer.ToString">
+            <summary>Sets the shim of SoundBuffer.ToString()</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.ShimSoundBufferRecorder">
+            <summary>Shim type of SFML.Audio.SoundBufferRecorder</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundBufferRecorder.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundBufferRecorder.#ctor(SFML.Audio.SoundBufferRecorder)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.ShimSoundBufferRecorder.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBufferRecorder.AllInstances.OnProcessSamplesInt16Array">
+            <summary>Sets the shim of SoundBufferRecorder.OnProcessSamples(Int16[] samples)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBufferRecorder.AllInstances.OnStart">
+            <summary>Sets the shim of SoundBufferRecorder.OnStart()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBufferRecorder.AllInstances.OnStop">
+            <summary>Sets the shim of SoundBufferRecorder.OnStop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBufferRecorder.AllInstances.SoundBufferGet">
+            <summary>Sets the shim of SoundBufferRecorder.get_SoundBuffer()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBufferRecorder.AllInstances.ToString01">
+            <summary>Sets the shim of SoundBufferRecorder.ToString()</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundBufferRecorder.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundBufferRecorder.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBufferRecorder.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundBufferRecorder.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBufferRecorder.Constructor">
+            <summary>Sets the shim of SoundBufferRecorder.SoundBufferRecorder()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBufferRecorder.OnProcessSamplesInt16Array">
+            <summary>Sets the shim of SoundBufferRecorder.OnProcessSamples(Int16[] samples)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBufferRecorder.OnStart">
+            <summary>Sets the shim of SoundBufferRecorder.OnStart()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBufferRecorder.OnStop">
+            <summary>Sets the shim of SoundBufferRecorder.OnStop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBufferRecorder.SoundBufferGet">
+            <summary>Sets the shim of SoundBufferRecorder.get_SoundBuffer()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundBufferRecorder.ToString">
+            <summary>Sets the shim of SoundBufferRecorder.ToString()</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.ShimSoundRecorder">
+            <summary>Shim type of SFML.Audio.SoundRecorder</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundRecorder.#ctor(SFML.Audio.SoundRecorder)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.ShimSoundRecorder.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.AllInstances.DestroyBoolean">
+            <summary>Sets the shim of SoundRecorder.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.AllInstances.OnStart">
+            <summary>Sets the shim of SoundRecorder.OnStart()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.AllInstances.OnStop">
+            <summary>Sets the shim of SoundRecorder.OnStop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.AllInstances.ProcessSamplesIntPtrUInt32IntPtr">
+            <summary>Sets the shim of SoundRecorder.ProcessSamples(IntPtr samples, UInt32 nbSamples, IntPtr userData)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.AllInstances.SampleRateGet">
+            <summary>Sets the shim of SoundRecorder.get_SampleRate()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.AllInstances.Start">
+            <summary>Sets the shim of SoundRecorder.Start()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.AllInstances.StartUInt32">
+            <summary>Sets the shim of SoundRecorder.Start(UInt32 sampleRate)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.AllInstances.Stop">
+            <summary>Sets the shim of SoundRecorder.Stop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.AllInstances.ToString01">
+            <summary>Sets the shim of SoundRecorder.ToString()</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundRecorder.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundRecorder.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundRecorder.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.Constructor">
+            <summary>Sets the shim of SoundRecorder.SoundRecorder()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.DestroyBoolean">
+            <summary>Sets the shim of SoundRecorder.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.IsAvailableGet">
+            <summary>Sets the shim of SoundRecorder.get_IsAvailable()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.OnStart">
+            <summary>Sets the shim of SoundRecorder.OnStart()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.OnStop">
+            <summary>Sets the shim of SoundRecorder.OnStop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.ProcessSamplesIntPtrUInt32IntPtr">
+            <summary>Sets the shim of SoundRecorder.ProcessSamples(IntPtr samples, UInt32 nbSamples, IntPtr userData)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.SampleRateGet">
+            <summary>Sets the shim of SoundRecorder.get_SampleRate()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.Start">
+            <summary>Sets the shim of SoundRecorder.Start()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.StartUInt32">
+            <summary>Sets the shim of SoundRecorder.Start(UInt32 sampleRate)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.Stop">
+            <summary>Sets the shim of SoundRecorder.Stop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundRecorder.ToString">
+            <summary>Sets the shim of SoundRecorder.ToString()</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.ShimSoundStream">
+            <summary>Shim type of SFML.Audio.SoundStream</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundStream.#ctor(SFML.Audio.SoundStream)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.ShimSoundStream.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.AttenuationGet">
+            <summary>Sets the shim of SoundStream.get_Attenuation()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.AttenuationSetSingle">
+            <summary>Sets the shim of SoundStream.set_Attenuation(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.ChannelCountGet">
+            <summary>Sets the shim of SoundStream.get_ChannelCount()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.DestroyBoolean">
+            <summary>Sets the shim of SoundStream.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.InitializeUInt32UInt32">
+            <summary>Sets the shim of SoundStream.Initialize(UInt32 channelCount, UInt32 sampleRate)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.LoopGet">
+            <summary>Sets the shim of SoundStream.get_Loop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.LoopSetBoolean">
+            <summary>Sets the shim of SoundStream.set_Loop(Boolean value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.MinDistanceGet">
+            <summary>Sets the shim of SoundStream.get_MinDistance()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.MinDistanceSetSingle">
+            <summary>Sets the shim of SoundStream.set_MinDistance(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.Pause">
+            <summary>Sets the shim of SoundStream.Pause()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.PitchGet">
+            <summary>Sets the shim of SoundStream.get_Pitch()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.PitchSetSingle">
+            <summary>Sets the shim of SoundStream.set_Pitch(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.Play">
+            <summary>Sets the shim of SoundStream.Play()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.PlayingOffsetGet">
+            <summary>Sets the shim of SoundStream.get_PlayingOffset()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.PlayingOffsetSetTimeSpan">
+            <summary>Sets the shim of SoundStream.set_PlayingOffset(TimeSpan value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.PositionGet">
+            <summary>Sets the shim of SoundStream.get_Position()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.PositionSetVector3f">
+            <summary>Sets the shim of SoundStream.set_Position(Vector3f value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.RelativeToListenerGet">
+            <summary>Sets the shim of SoundStream.get_RelativeToListener()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.RelativeToListenerSetBoolean">
+            <summary>Sets the shim of SoundStream.set_RelativeToListener(Boolean value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.SampleRateGet">
+            <summary>Sets the shim of SoundStream.get_SampleRate()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.SeekInt64IntPtr">
+            <summary>Sets the shim of SoundStream.Seek(Int64 timeOffset, IntPtr userData)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.StatusGet">
+            <summary>Sets the shim of SoundStream.get_Status()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.Stop">
+            <summary>Sets the shim of SoundStream.Stop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.ToString01">
+            <summary>Sets the shim of SoundStream.ToString()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.VolumeGet">
+            <summary>Sets the shim of SoundStream.get_Volume()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AllInstances.VolumeSetSingle">
+            <summary>Sets the shim of SoundStream.set_Volume(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AttenuationGet">
+            <summary>Sets the shim of SoundStream.get_Attenuation()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.AttenuationSetSingle">
+            <summary>Sets the shim of SoundStream.set_Attenuation(Single value)</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundStream.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundStream.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimSoundStream.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.ChannelCountGet">
+            <summary>Sets the shim of SoundStream.get_ChannelCount()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.Constructor">
+            <summary>Sets the shim of SoundStream.SoundStream()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.DestroyBoolean">
+            <summary>Sets the shim of SoundStream.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.InitializeUInt32UInt32">
+            <summary>Sets the shim of SoundStream.Initialize(UInt32 channelCount, UInt32 sampleRate)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.LoopGet">
+            <summary>Sets the shim of SoundStream.get_Loop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.LoopSetBoolean">
+            <summary>Sets the shim of SoundStream.set_Loop(Boolean value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.MinDistanceGet">
+            <summary>Sets the shim of SoundStream.get_MinDistance()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.MinDistanceSetSingle">
+            <summary>Sets the shim of SoundStream.set_MinDistance(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.Pause">
+            <summary>Sets the shim of SoundStream.Pause()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.PitchGet">
+            <summary>Sets the shim of SoundStream.get_Pitch()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.PitchSetSingle">
+            <summary>Sets the shim of SoundStream.set_Pitch(Single value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.Play">
+            <summary>Sets the shim of SoundStream.Play()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.PlayingOffsetGet">
+            <summary>Sets the shim of SoundStream.get_PlayingOffset()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.PlayingOffsetSetTimeSpan">
+            <summary>Sets the shim of SoundStream.set_PlayingOffset(TimeSpan value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.PositionGet">
+            <summary>Sets the shim of SoundStream.get_Position()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.PositionSetVector3f">
+            <summary>Sets the shim of SoundStream.set_Position(Vector3f value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.RelativeToListenerGet">
+            <summary>Sets the shim of SoundStream.get_RelativeToListener()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.RelativeToListenerSetBoolean">
+            <summary>Sets the shim of SoundStream.set_RelativeToListener(Boolean value)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.SampleRateGet">
+            <summary>Sets the shim of SoundStream.get_SampleRate()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.SeekInt64IntPtr">
+            <summary>Sets the shim of SoundStream.Seek(Int64 timeOffset, IntPtr userData)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.StatusGet">
+            <summary>Sets the shim of SoundStream.get_Status()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.Stop">
+            <summary>Sets the shim of SoundStream.Stop()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.ToString">
+            <summary>Sets the shim of SoundStream.ToString()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.VolumeGet">
+            <summary>Sets the shim of SoundStream.get_Volume()</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimSoundStream.VolumeSetSingle">
+            <summary>Sets the shim of SoundStream.set_Volume(Single value)</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.ShimVector3f">
+            <summary>Shim type of SFML.Audio.Vector3f</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimVector3f.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimVector3f.AdditionOpVector3fVector3f">
+            <summary>Sets the shim of Vector3f.op_Addition(Vector3f v1, Vector3f v2)</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.ShimVector3f.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimVector3f.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.ShimVector3f.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimVector3f.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimVector3f.DivisionOpVector3fSingle">
+            <summary>Sets the shim of Vector3f.op_Division(Vector3f v, Single x)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimVector3f.MultiplyOpSingleVector3f">
+            <summary>Sets the shim of Vector3f.op_Multiply(Single x, Vector3f v)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimVector3f.MultiplyOpVector3fSingle">
+            <summary>Sets the shim of Vector3f.op_Multiply(Vector3f v, Single x)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimVector3f.SubtractionOpVector3fVector3f">
+            <summary>Sets the shim of Vector3f.op_Subtraction(Vector3f v1, Vector3f v2)</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.ShimVector3f.UnaryNegationOpVector3f">
+            <summary>Sets the shim of Vector3f.op_UnaryNegation(Vector3f v)</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.StubListener">
+            <summary>Stub type of SFML.Audio.Listener</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubListener.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubListener.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubListener.InitializeStub">
+            <summary>Initializes a new instance of type StubListener</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubListener.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubListener.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.StubMusic">
+            <summary>Stub type of SFML.Audio.Music</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubMusic.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubMusic.#ctor(System.IO.Stream)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubMusic.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubMusic.Destroy(System.Boolean)">
+            <summary>Sets the stub of Music.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubMusic.DestroyBoolean">
+            <summary>Sets the stub of Music.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubMusic.InitializeStub">
+            <summary>Initializes a new instance of type StubMusic</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubMusic.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubMusic.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubMusic.ToString">
+            <summary>Sets the stub of Music.ToString()</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubMusic.ToString01">
+            <summary>Sets the stub of Music.ToString()</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.StubSound">
+            <summary>Stub type of SFML.Audio.Sound</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSound.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSound.#ctor(SFML.Audio.Sound)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSound.#ctor(SFML.Audio.SoundBuffer)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubSound.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSound.Destroy(System.Boolean)">
+            <summary>Sets the stub of Sound.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSound.DestroyBoolean">
+            <summary>Sets the stub of Sound.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSound.InitializeStub">
+            <summary>Initializes a new instance of type StubSound</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubSound.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubSound.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSound.ToString">
+            <summary>Sets the stub of Sound.ToString()</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSound.ToString01">
+            <summary>Sets the stub of Sound.ToString()</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.StubSoundBuffer">
+            <summary>Stub type of SFML.Audio.SoundBuffer</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundBuffer.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundBuffer.#ctor(System.IO.Stream)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundBuffer.#ctor(SFML.Audio.SoundBuffer)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundBuffer.#ctor(System.Int16[],System.UInt32,System.UInt32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubSoundBuffer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundBuffer.Destroy(System.Boolean)">
+            <summary>Sets the stub of SoundBuffer.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSoundBuffer.DestroyBoolean">
+            <summary>Sets the stub of SoundBuffer.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundBuffer.InitializeStub">
+            <summary>Initializes a new instance of type StubSoundBuffer</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubSoundBuffer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubSoundBuffer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundBuffer.ToString">
+            <summary>Sets the stub of SoundBuffer.ToString()</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSoundBuffer.ToString01">
+            <summary>Sets the stub of SoundBuffer.ToString()</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.StubSoundBufferRecorder">
+            <summary>Stub type of SFML.Audio.SoundBufferRecorder</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundBufferRecorder.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubSoundBufferRecorder.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundBufferRecorder.Destroy(System.Boolean)">
+            <summary>Sets the stub of SoundRecorder.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSoundBufferRecorder.DestroyBoolean">
+            <summary>Sets the stub of SoundRecorder.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundBufferRecorder.InitializeStub">
+            <summary>Initializes a new instance of type StubSoundBufferRecorder</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubSoundBufferRecorder.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubSoundBufferRecorder.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundBufferRecorder.OnProcessSamples(System.Int16[])">
+            <summary>Sets the stub of SoundBufferRecorder.OnProcessSamples(Int16[] samples)</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSoundBufferRecorder.OnProcessSamplesInt16Array">
+            <summary>Sets the stub of SoundBufferRecorder.OnProcessSamples(Int16[] samples)</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundBufferRecorder.OnStart">
+            <summary>Sets the stub of SoundBufferRecorder.OnStart()</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSoundBufferRecorder.OnStart01">
+            <summary>Sets the stub of SoundBufferRecorder.OnStart()</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundBufferRecorder.OnStop">
+            <summary>Sets the stub of SoundBufferRecorder.OnStop()</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSoundBufferRecorder.OnStop01">
+            <summary>Sets the stub of SoundBufferRecorder.OnStop()</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundBufferRecorder.ToString">
+            <summary>Sets the stub of SoundBufferRecorder.ToString()</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSoundBufferRecorder.ToString01">
+            <summary>Sets the stub of SoundBufferRecorder.ToString()</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.StubSoundRecorder">
+            <summary>Stub type of SFML.Audio.SoundRecorder</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundRecorder.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubSoundRecorder.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundRecorder.Destroy(System.Boolean)">
+            <summary>Sets the stub of SoundRecorder.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSoundRecorder.DestroyBoolean">
+            <summary>Sets the stub of SoundRecorder.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundRecorder.InitializeStub">
+            <summary>Initializes a new instance of type StubSoundRecorder</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubSoundRecorder.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubSoundRecorder.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundRecorder.OnProcessSamples(System.Int16[])">
+            <summary>Sets the stub of SoundRecorder.OnProcessSamples(Int16[] samples)</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSoundRecorder.OnProcessSamplesInt16Array">
+            <summary>Sets the stub of SoundRecorder.OnProcessSamples(Int16[] samples)</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundRecorder.OnStart">
+            <summary>Sets the stub of SoundRecorder.OnStart()</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSoundRecorder.OnStart01">
+            <summary>Sets the stub of SoundRecorder.OnStart()</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundRecorder.OnStop">
+            <summary>Sets the stub of SoundRecorder.OnStop()</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSoundRecorder.OnStop01">
+            <summary>Sets the stub of SoundRecorder.OnStop()</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundRecorder.ToString">
+            <summary>Sets the stub of SoundRecorder.ToString()</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSoundRecorder.ToString01">
+            <summary>Sets the stub of SoundRecorder.ToString()</summary>
+        </member>
+        <member name="T:SFML.Audio.Fakes.StubSoundStream">
+            <summary>Stub type of SFML.Audio.SoundStream</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundStream.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubSoundStream.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundStream.Destroy(System.Boolean)">
+            <summary>Sets the stub of SoundStream.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSoundStream.DestroyBoolean">
+            <summary>Sets the stub of SoundStream.Destroy(Boolean disposing)</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundStream.InitializeStub">
+            <summary>Initializes a new instance of type StubSoundStream</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubSoundStream.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:SFML.Audio.Fakes.StubSoundStream.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundStream.OnGetData(System.Int16[]@)">
+            <summary>Sets the stub of SoundStream.OnGetData(Int16[]&amp; samples)</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSoundStream.OnGetDataInt16ArrayOut">
+            <summary>Sets the stub of SoundStream.OnGetData(Int16[]&amp; samples)</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundStream.OnSeek(System.TimeSpan)">
+            <summary>Sets the stub of SoundStream.OnSeek(TimeSpan timeOffset)</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSoundStream.OnSeekTimeSpan">
+            <summary>Sets the stub of SoundStream.OnSeek(TimeSpan timeOffset)</summary>
+        </member>
+        <member name="M:SFML.Audio.Fakes.StubSoundStream.ToString">
+            <summary>Sets the stub of SoundStream.ToString()</summary>
+        </member>
+        <member name="F:SFML.Audio.Fakes.StubSoundStream.ToString01">
+            <summary>Sets the stub of SoundStream.ToString()</summary>
+        </member>
+    </members>
+</doc>

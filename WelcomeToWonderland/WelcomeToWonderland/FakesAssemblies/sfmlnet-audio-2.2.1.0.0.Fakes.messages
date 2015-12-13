@@ -1,0 +1,9 @@
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\Fakes\sfmlnet-audio-2.fakes : warning : Cannot generate stub for SFML.Audio.Vector3f: type is a value type.
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\Fakes\sfmlnet-audio-2.fakes : warning : Cannot generate stub for SFML.Audio.SoundStatus: type is a value type.
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\Fakes\sfmlnet-audio-2.fakes : warning : Cannot generate shim for SFML.Audio.SoundStream+Chunk: type is not visible to exported or assembly(sfmlnet-audio-2.2.1.0.0.Fakes).
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\Fakes\sfmlnet-audio-2.fakes : warning : Cannot generate shim for SFML.Audio.SoundStream+GetDataCallbackType: type is a delegate.
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\Fakes\sfmlnet-audio-2.fakes : warning : Cannot generate shim for SFML.Audio.SoundStream+SeekCallbackType: type is a delegate.
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\Fakes\sfmlnet-audio-2.fakes : warning : Cannot generate shim for SFML.Audio.SoundRecorder+ProcessCallback: type is a delegate.
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\Fakes\sfmlnet-audio-2.fakes : warning : Cannot generate shim for SFML.Audio.SoundRecorder+StartCallback: type is a delegate.
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\Fakes\sfmlnet-audio-2.fakes : warning : Cannot generate shim for SFML.Audio.SoundRecorder+StopCallback: type is a delegate.
+E:\development\c#\playground\WelcomeToWonderland\WelcomeToWonderland\Fakes\sfmlnet-audio-2.fakes : warning : Cannot generate shim for SFML.Audio.SoundStatus: type is an enum.
