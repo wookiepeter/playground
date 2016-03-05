@@ -1,0 +1,24 @@
+First Goal:
+- functioning Jump & Run mechanics
+- fully designed character
+- complete animation of character (running, jumping, duck, hanging down from a cliff, slow wall slide)
+- basic level design
+- startmenu + endscreen?!
+- maybe start neutral/enemy characters design and animation
+
+Second Goal:
+- randomly generated levels
+- dynamic level design (level is destroyable / destroyable objects/blocks)
+- gravity changes 
+
+Third Goal:
+- add enemies  
+- add weapons
+- add combat system
+- add balancing
+- rpg level system ?!
+
+Fourth Goal:
+- develope story
+- cutscenes / dialogues
+- quests
