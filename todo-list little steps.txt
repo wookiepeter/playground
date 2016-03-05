@@ -1,0 +1,15 @@
+Welcome to wonderland
+
+
+festhalten und langsames rutschen an Wanden
+cliff hanging
+combat system (hit, block, ausweichen, runter-hit...)
+cheshire cat action skill
+teils zufallsgenerierte level (mit besseren Items als Belohnung) lootlevel
+veränderliches (dynamisches) Leveldesign -dmc devil may cry
+gravity changes (mercurial story)
+quests + kleines rpg system
+dialogs
+rätzel
+
+easter egg items (Gummibärensaft,... )s
